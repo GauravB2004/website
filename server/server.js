@@ -9,7 +9,7 @@ const app = express();
 
 // Connect to MongoDB
 try {
-    mongoose.connect('mongodb+srv://cdab89565:tBlJdoC4fO3u7wJt@cluster0.utwhjvq.mongodb.net/B8R',
+    mongoose.connect('mongodb+srv://cdab89565:tBlJdoC4fO3u7wJt@cluster0.utwhjvq.mongodb.net/',
         { useNewUrlParser: true, useUnifiedTopology: true });
     console.log("connected")
 }
