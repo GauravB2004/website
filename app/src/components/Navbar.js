@@ -2,16 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
-// function Navbar() {
-//     return (
-//         <nav>
-//             <Link to="/">Home</Link>
-//             <Link to="/listings">Listings</Link>
-//             <Link to="/login">Login</Link>
-//             <Link to="/register">Register</Link>
-//             {/* Add more links as needed */}
-//         </nav>
-//     );
+
 
     function Navbar() {
 
