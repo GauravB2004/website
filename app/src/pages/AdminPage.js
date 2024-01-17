@@ -16,6 +16,7 @@ function AdminPage() {
 
 
     const [message, setMessage] = useState(''); 
+    
     useEffect(() => {
         let timer;
         if (message) {
